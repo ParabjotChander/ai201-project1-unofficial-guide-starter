@@ -10,7 +10,7 @@
 ## Domain
 
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
-
+I choose student reviews of Computer Science Professors at CUNY Queens College. Each txt file shows reviews for an specific professor teaching, a total of 10 professors' reviews. This knowlegde will be valuable for students when they signup for classes for next semester, what professors should they have and which ones should they avoid. This information was hard to fins through offical channels since the colleges' official website doesn't have professor reviews that are specific but more broad praise of them. 
 ---
 
 ## Documents
@@ -20,16 +20,16 @@
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 |Paul Cesaretti.txt| | |https://www.ratemyprofessors.com/professor/2354095
+| 2 |Russell Gomes.txt| | |https://www.ratemyprofessors.com/professor/2913678 
+| 3 |Simina Fluture.txt| | |https://www.ratemyprofessors.com/professor/513427 
+| 4 |Mayank Goswami.txt| | | https://www.ratemyprofessors.com/professor/2195317 
+| 5 |Anne Smith Thompson.txt| | | https://www.ratemyprofessors.com/professor/352320 
+| 6 |John Svadlenka.txt| | | https://www.ratemyprofessors.com/professor/2485140 
+| 7 |Kent Boklan.txt| | | https://www.ratemyprofessors.com/professor/629756 
+| 8 |Delaram Kahrobaei.txt| | | https://www.ratemyprofessors.com/professor/2870283 
+| 9 |Matthew Fried.txt| | | https://www.ratemyprofessors.com/professor/1822595 
+| 10 |Robert Goldberg.txt| | | https://www.ratemyprofessors.com/professor/446485 
 
 ---
 
