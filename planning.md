@@ -20,16 +20,16 @@ I choose student reviews of Computer Science Professors at CUNY Queens College. 
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 |Paul Cesaretti.txt|Paul Cesaretti's rate my professor reviews | |<https://www.ratemyprofessors.com/professor/2354095>
-| 2 |Russell Gomes.txt|Russell Gomes's rate my professor reviews | |<https://www.ratemyprofessors.com/professor/2913678> 
-| 3 |Simina Fluture.txt|Simina Fluture's rate my professor reviews | |<https://www.ratemyprofessors.com/professor/513427>
-| 4 |Mayank Goswami.txt|Mayank Goswami's rate my professor reviews | | <https://www.ratemyprofessors.com/professor/2195317> 
-| 5 |Anne Smith Thompson.txt|Anne Smith Thompson's rate my professor reviews | |<https://www.ratemyprofessors.com/professor/352320> 
-| 6 |John Svadlenka.txt|John Svadlenka's rate my professor reviews | | <https://www.ratemyprofessors.com/professor/2485140>
-| 7 |Kent Boklan.txt|Kent Boklan's rate my professor reviews | | <https://www.ratemyprofessors.com/professor/629756>
-| 8 |Delaram Kahrobaei.txt|Delaram Kahrobaei's rate my professor reviews | |<https://www.ratemyprofessors.com/professor/2870283> 
-| 9 |Matthew Fried.txt|Matthew Fried's rate my professor reviews | |<https://www.ratemyprofessors.com/professor/1822595>
-| 10 |Robert Goldberg.txt|Robert Goldberg's rate my professor reviews | | <https://www.ratemyprofessors.com/professor/446485> 
+| 1 |Paul Cesaretti.txt|Paul Cesaretti's rate my professor reviews | |[https://www.ratemyprofessors.com/professor/2354095](https://www.ratemyprofessors.com/professor/2354095)
+| 2 |Russell Gomes.txt|Russell Gomes's rate my professor reviews | |[https://www.ratemyprofessors.com/professor/2913678](https://www.ratemyprofessors.com/professor/2913678)
+| 3 |Simina Fluture.txt|Simina Fluture's rate my professor reviews | |[https://www.ratemyprofessors.com/professor/513427](https://www.ratemyprofessors.com/professor/513427)
+| 4 |Mayank Goswami.txt|Mayank Goswami's rate my professor reviews | | [https://www.ratemyprofessors.com/professor/2195317](https://www.ratemyprofessors.com/professor/2195317)
+| 5 |Anne Smith Thompson.txt|Anne Smith Thompson's rate my professor reviews | |[https://www.ratemyprofessors.com/professor/352320](https://www.ratemyprofessors.com/professor/352320)
+| 6 |John Svadlenka.txt|John Svadlenka's rate my professor reviews | | [https://www.ratemyprofessors.com/professor/2485140](https://www.ratemyprofessors.com/professor/2485140)
+| 7 |Kent Boklan.txt|Kent Boklan's rate my professor reviews | | [https://www.ratemyprofessors.com/professor/629756](https://www.ratemyprofessors.com/professor/629756)
+| 8 |Delaram Kahrobaei.txt|Delaram Kahrobaei's rate my professor reviews | |[https://www.ratemyprofessors.com/professor/2870283](https://www.ratemyprofessors.com/professor/2870283)
+| 9 |Matthew Fried.txt|Matthew Fried's rate my professor reviews | |[https://www.ratemyprofessors.com/professor/1822595](https://www.ratemyprofessors.com/professor/1822595)
+| 10 |Robert Goldberg.txt|Robert Goldberg's rate my professor reviews | |[https://www.ratemyprofessors.com/professor/446485](https://www.ratemyprofessors.com/professor/446485)
 
 ---
 
