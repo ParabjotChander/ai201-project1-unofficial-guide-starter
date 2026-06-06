@@ -15,7 +15,7 @@ CHROMA_COLLECTION = "CS_Professor_Reviews"
 CHROMA_PATH = "./chroma_db"
 
 # --- Retrieval ---
-N_RESULTS = 3
+N_RESULTS = 4
 
 # --- Documents ---
 DOCS_PATH = os.path.join(os.path.dirname(__file__), "documents")
