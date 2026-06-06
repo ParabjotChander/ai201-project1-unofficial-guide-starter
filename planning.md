@@ -20,16 +20,16 @@ I choose student reviews of Computer Science Professors at CUNY Queens College. 
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 |Paul Cesaretti.txt|Paul Cesaretti's rate my professor reviews | |[https://www.ratemyprofessors.com/professor/2354095](https://www.ratemyprofessors.com/professor/2354095)
-| 2 |Russell Gomes.txt|Russell Gomes's rate my professor reviews | |[https://www.ratemyprofessors.com/professor/2913678](https://www.ratemyprofessors.com/professor/2913678)
-| 3 |Simina Fluture.txt|Simina Fluture's rate my professor reviews | |[https://www.ratemyprofessors.com/professor/513427](https://www.ratemyprofessors.com/professor/513427)
-| 4 |Mayank Goswami.txt|Mayank Goswami's rate my professor reviews | | [https://www.ratemyprofessors.com/professor/2195317](https://www.ratemyprofessors.com/professor/2195317)
-| 5 |Anne Smith Thompson.txt|Anne Smith Thompson's rate my professor reviews | |[https://www.ratemyprofessors.com/professor/352320](https://www.ratemyprofessors.com/professor/352320)
-| 6 |John Svadlenka.txt|John Svadlenka's rate my professor reviews | | [https://www.ratemyprofessors.com/professor/2485140](https://www.ratemyprofessors.com/professor/2485140)
-| 7 |Kent Boklan.txt|Kent Boklan's rate my professor reviews | | [https://www.ratemyprofessors.com/professor/629756](https://www.ratemyprofessors.com/professor/629756)
-| 8 |Delaram Kahrobaei.txt|Delaram Kahrobaei's rate my professor reviews | |[https://www.ratemyprofessors.com/professor/2870283](https://www.ratemyprofessors.com/professor/2870283)
-| 9 |Matthew Fried.txt|Matthew Fried's rate my professor reviews | |[https://www.ratemyprofessors.com/professor/1822595](https://www.ratemyprofessors.com/professor/1822595)
-| 10 |Robert Goldberg.txt|Robert Goldberg's rate my professor reviews | |[https://www.ratemyprofessors.com/professor/446485](https://www.ratemyprofessors.com/professor/446485)
+| 1 |Paul Cesaretti.txt|Paul Cesaretti's rate my professor reviews |[https://www.ratemyprofessors.com/professor/2354095](https://www.ratemyprofessors.com/professor/2354095) |
+| 2 |Russell Gomes.txt|Russell Gomes's rate my professor reviews |[https://www.ratemyprofessors.com/professor/2913678](https://www.ratemyprofessors.com/professor/2913678) |
+| 3 |Simina Fluture.txt|Simina Fluture's rate my professor reviews |[https://www.ratemyprofessors.com/professor/513427](https://www.ratemyprofessors.com/professor/513427) |
+| 4 |Mayank Goswami.txt|Mayank Goswami's rate my professor reviews |[https://www.ratemyprofessors.com/professor/2195317](https://www.ratemyprofessors.com/professor/2195317) | 
+| 5 |Anne Smith Thompson.txt|Anne Smith Thompson's rate my professor reviews |[https://www.ratemyprofessors.com/professor/352320](https://www.ratemyprofessors.com/professor/352320) |
+| 6 |John Svadlenka.txt|John Svadlenka's rate my professor reviews |[https://www.ratemyprofessors.com/professor/2485140](https://www.ratemyprofessors.com/professor/2485140) | 
+| 7 |Kent Boklan.txt|Kent Boklan's rate my professor reviews |[https://www.ratemyprofessors.com/professor/629756](https://www.ratemyprofessors.com/professor/629756) | 
+| 8 |Delaram Kahrobaei.txt|Delaram Kahrobaei's rate my professor reviews |[https://www.ratemyprofessors.com/professor/2870283](https://www.ratemyprofessors.com/professor/2870283) |
+| 9 |Matthew Fried.txt|Matthew Fried's rate my professor reviews |[https://www.ratemyprofessors.com/professor/1822595](https://www.ratemyprofessors.com/professor/1822595) |
+| 10 |Robert Goldberg.txt|Robert Goldberg's rate my professor reviews |[https://www.ratemyprofessors.com/professor/446485](https://www.ratemyprofessors.com/professor/446485) |
 
 ---
 
@@ -40,9 +40,9 @@ I choose student reviews of Computer Science Professors at CUNY Queens College. 
      numbers fit the structure of your documents.
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 
-**Chunk size:** 50 characters
+**Chunk size:** 250 characters
 
-**Overlap:** 10 characters
+**Overlap:** 50 characters
 
 **Reasoning:** 
 I will split my documents by character count, fixed size since my files contain reviews of professors which aren't too long, each review for a professor is a brief paragraph. To prevent the cutting of words, I will use an overlap. The benefits of this approach is that it is simple, fast, predictable and no Natural Language Processing is needed. It's good for uniform short documents (reviews)
@@ -118,7 +118,14 @@ If I was deploying this for real users and cost wasn't a constraint, I would loo
 
 **Milestone 3 — Ingestion and chunking:**
                 I'll use the class lab for reference and guidance in terms of the document loading, I have text files.
-                I'll give Claude my Chunking Strategy section (fixed size) and ask it to implement chunk_text() method with my specified chunk size and overlap.
+                 want to implement character fixed chunking of 100 characters with an overlap of 20 characters. I loaded the data already with my loaded_documents variable, which is a list where each element is a dictionary. The dictionary elements consist of this format. The text in the dictionary is the actual text from the doc.
+
+                {
+                    "professor": professor_name,
+                    "filename": filename,
+                    "text": text
+                }
+               I have created a method called chunk_text() NOTE: I changed the chunking and overlap size
 
 **Milestone 4 — Embedding and retrieval:**
                 I will have have to store the chunks in the embed_and_store() method! 
