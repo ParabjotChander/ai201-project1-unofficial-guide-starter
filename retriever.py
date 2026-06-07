@@ -1,7 +1,7 @@
 import chromadb
 from chromadb.utils import embedding_functions
 from config import CHROMA_COLLECTION, CHROMA_PATH, EMBEDDING_MODEL, N_RESULTS
-from ingest import chunked_documents
+#from ingest import chunk_documents
 
 _ef = embedding_functions.SentenceTransformerEmbeddingFunction(model_name=EMBEDDING_MODEL)
 _client = chromadb.PersistentClient(path=CHROMA_PATH)
@@ -58,4 +58,9 @@ print(f"retrieved_chunks: {retrieved_chunks} \n from query: {query2}")
 query3 = "What are the ways to pass Kent Boklan's class?"
 retrieved_chunks = retrieve(query3)
 print(f"retrieved_chunks: {retrieved_chunks} \n from query: {query3}")
+
+What are the submission steps for a singe file for Robert Goldberg?
+
+Can you describe Simina Fluture's assigments and exams?
+
 """

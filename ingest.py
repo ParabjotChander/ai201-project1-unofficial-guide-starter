@@ -40,11 +40,11 @@ def chunk_documents():
                 "text": chunk
             })
     return chunked_documents
-
+'''
 chunked_documents = chunk_documents()
 
 print(f"Chunked documents into {len(chunked_documents)} chunks.")
-'''
+
 # 5 Random Chunks
 print(f"Example chunk: {chunked_documents[random.randint(0, len(chunked_documents)-1)]['text']}\n")
 print(f"Example chunk: {chunked_documents[random.randint(0, len(chunked_documents)-1)]['text']}\n")
