@@ -125,12 +125,12 @@ If I was deploying this for real users and cost wasn't a constraint, I would loo
                     "filename": filename,
                     "text": text
                 }
-               I have created a method called chunk_text() NOTE: I changed the chunking and overlap size
+               I have created a method called chunk_text() NOTE: I changed the chunking and overlap size to 250 and 50 characters respectively 
 
 **Milestone 4 — Embedding and retrieval:**
-                I will have have to store the chunks in the embed_and_store() method! 
-                I'll ask AI for an guide on Python's sentence-transformers usage.
+                I will have have to store the chunks in the embed_and_store(), retrieve() and get_collection() methods! 
+                I'll ask AI for an guide on Python's sentence-transformers usage and setup.
 
 **Milestone 5 — Generation and interface:**
                 I'll will tell Claude by grounding instructions for generation in the generate_reponse() method
-                Do some research on Gradio python library before creating simple UI which displays a text box to display the query and the response. 
+                Do some research on Gradio python library before creating simple UI which displays text boxs to display the query and the response. 
